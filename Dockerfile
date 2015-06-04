@@ -2,7 +2,7 @@ FROM ubuntu:trusty
 MAINTAINER Giovanni Toraldo <me@gionn.net>
 
 ENV DEBIAN_FRONTEND noninteractive
-ENV PLEX_VERSION 0.9.12.1.1079-b655370
+ENV PLEX_VERSION 0.9.12.3.1173-937aac3
 
 RUN sed -i s/archive/it.archive/g /etc/apt/sources.list
 RUN apt-get -q update && \
