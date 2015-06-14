@@ -1,4 +1,4 @@
-Plex Media Server Docker image
+Plex Media Server on Docker
 ===========
 
 [![Circle CI](https://circleci.com/gh/gionn/docker-plex.svg?style=svg)](https://circleci.com/gh/gionn/docker-plex)
