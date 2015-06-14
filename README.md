@@ -3,7 +3,7 @@ Plex Media Server Docker image
 
 [![Circle CI](https://circleci.com/gh/gionn/docker-plex.svg?style=svg)](https://circleci.com/gh/gionn/docker-plex)
 
-Dockerized Plex Media Server on base ubuntu 14.04 without frills, using the .deb available on [Plex Downloads section](https://plex.tv/downloads).
+This is a [Dockerfile](https://github.com/gionn/docker-plex/blob/master/Dockerfile) for [Plex Media Server](https://plex.tv/) based on *ubuntu:trusty* without additional frills, using the DEB package available on [Plex Downloads section](https://plex.tv/downloads).
 
 # Running
 ```
