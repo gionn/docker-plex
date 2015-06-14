@@ -4,9 +4,9 @@ MAINTAINER Giovanni Toraldo <me@gionn.net>
 ENV PLEX_VERSION 0.9.12.3.1173-937aac3
 ENV HOME /var/lib/plexmediaserver
 ENV DEBIAN_FRONTEND noninteractive
-ENV mirror it
+ENV MIRROR it
 
-RUN sed -i s/archive/$MIRROR.archive/g /etc/apt/sources.list
+RUN sed -i s/archive/${MIRROR}.archive/g /etc/apt/sources.list
 
 RUN apt-get -q update && \
     apt-get -qy dist-upgrade && \
