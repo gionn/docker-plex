@@ -1,7 +1,7 @@
 FROM ubuntu:trusty
 MAINTAINER Giovanni Toraldo <me@gionn.net>
 
-ENV PLEX_VERSION 0.9.12.3.1173-937aac3
+ENV PLEX_VERSION 0.9.12.4.1192-9a47d21
 ENV HOME /var/lib/plexmediaserver
 ENV DEBIAN_FRONTEND noninteractive
 ENV MIRROR it
